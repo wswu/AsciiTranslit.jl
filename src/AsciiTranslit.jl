@@ -54,7 +54,7 @@ end
 
 function load_data(section)
     num = @sprintf("%03x", section)
-    path = joinpath(@__DIR__, "../data/x$num.py")
+    path = joinpath(@__DIR__, "../data/x$num.jl")
     if isfile(path)
         include(path)
         return data
