@@ -13,7 +13,7 @@ ASCII transliterations of Unicode text. Julia port of [https://github.com/avian2
     julia> translit("你好")
     "Ni Hao "
 
-    julia> translit('30 \U0001d5c4\U0001d5c6/\U0001d5c1')
+    julia> translit("30 \U0001d5c4\U0001d5c6/\U0001d5c1")
     "30 km/h"
     
 Function signature:
